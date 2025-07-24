@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(to bottom, #ae68e7, #ffffff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+}
+
+.login-box {
+  background-color: #ffffff;
+  padding: 40px 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.user-icon img {
+  width: 60px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #444;
+}
+
+form input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #b949e6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+form button:hover {
+  background-color: #c0a0df;
+}
+
+.forgot {
+  margin-top: 10px;
+}
+
+.forgot a {
+  color: #c996e0;
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.credit {
+  margin-top: 30px;
+  font-size: 0.8em;
+  color: #888;
+}
+
+.credit a {
+  color: #888;
+  text-decoration: none;
+}
